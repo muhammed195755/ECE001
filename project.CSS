@@ -1,0 +1,67 @@
+h1 {
+  display: inline-block;
+   background-color: #07DBE7;
+  
+   
+}
+h2{
+   display: inline-block;
+   background-color: #62CF98;
+   font-size: medium
+  
+}
+p{
+    display:inline-block;
+   background-color: #F2EED3;
+   font-size: x-large;
+    
+}
+li{
+ font-size: large;
+  display: inline-list-item;
+  color: #BAECE7;
+   
+}
+table{
+   font-size: large;
+  display: inline-table;
+  color:#BAECE7;
+}
+ol{
+    list-style-type:circle;
+    font-size: xx-large;
+   }
+  ul{
+    list-style-type:square 
+    
+  }
+  
+
+.thepage{
+    
+  background-image: url('cover.jpg');
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+
+a:hover{
+    color:red;
+    font-weight:bolder;
+    font-size:xx-large;
+    
+}
+.nav li {
+  display: inline-block;
+  font-size: xx-large;
+   background-color: Orange;
+}
+
+
+    
+
+
+  
+  

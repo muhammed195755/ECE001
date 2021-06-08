@@ -1,0 +1,46 @@
+<html> 
+	<head> 
+	<meta charset="utf-8"> 
+	<meta name="description"content"this is my website"> 
+	<title>First program in C++</title> 
+	<link rel="stylesheet" href="project.CSS" /> 
+
+	
+	
+	</head> 
+	<body class="thepage" >
+		<img src="example2.png" width=750 height=200">
+		<br>
+		<h2>#include iostream </h2>
+		<br>
+		<p>Lines beginning with a pound sign (#) are used by the compilers pre-processor. In this case the directive #include tells the pre-processor to include the iostream standard file. This file iostream includes the declarations of the basic standard input/output library in C++. (See it as including extra lines of code that add functionality to your program).</p>
+<h2>using namespace std; </h2>
+		<br>
+		<p>All the elements of the standard C++ library are declared within what is called a namespace. In this case the namespace with the name std. We put this line in to declare that we will make use of the functionality offered in the namespace std. This line of code is used very frequent in C++ programs that use the standard library. You will see that we will make use of it in most of the source code included in these tutorials
+	.</p>
+<h2>int main() </h2>
+		<br>
+		<p>int is what is called the return value (in this case of the type integer. Integer is a whole number). What is used for will be explained further down.
+Every program must have a main() function. The main function is the point where all C++ programs start their execution. The word main is followed by a pair of round brackets. That is because it is a function declaration (Functions will be explained in more detail in a later tutorial). It is possible to enclose a list of parameters within the round brackets.
+</p><h2>{} </h2>
+		<br>
+		<p>The two curly brackets (one in the beginning and one at the end) are used to indicate the beginning and the end of the function main. (Also called the body of a function). Everything contained within these curly brackets is what the function does when it is called and executed. In the coming tutorials you will see that many other statements make use of curly brackets.</p>
+		<br>
+<h2>cout << “Hello World”; </h2>
+		<br>
+		<p>This line is a C++ statement. A statement is a simple expression that can produce an effect. In this case the statement will print something to our screen.
+cout represents the standard output stream in C++.
+(There is also a standard input stream that will be explained in another tutorial). In this a sequence of characters (Hello World) will be send to the standard output stream (in most cases this will be your screen).
+
+
+
+The words Hello World have to be between ” “, but the ” ” will not be printed on the screen. They indicate that the sentence begins and where it will end.
+
+cout is declared in the iostream standard file within the std namespace. This is the reason why we needed to include that specific file. This is also the reason why we had to declare this specific namespace.
+As you can see the statement ends with a semicolon (;). The semicolon is used to mark the end of the statement. The semicolon must be placed behind all statements in C++ programs. So, remember this. One of the common errors is to forget to include a semicolon after a statement
+</p>
+		<br>
+		<h2>return 0;</h2>
+		<p>The return statement causes the main function to finish. You may return a return code (in this case a zero) but it depends on how you start your function main( ). We said that main ( ) will return an int (integer). So we have to return something (in this case a zero). A zero normally indicates that everything went ok and a one normally indicates that something has gone wrong. (This is standard practice. After running an UNIX/Linux program there is often a check on the return code).</p>
+	</body>
+</html>
